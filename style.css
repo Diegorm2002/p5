@@ -1,0 +1,63 @@
+body {
+  width: 1280px;
+  height: 832px;
+}
+/* Primera Línea */
+.primeralinea {
+  display: flex;
+}
+#cuadrado_celeste {
+  width: 192px;
+  height: 192px;
+  background-color: #84d1e5;
+}
+#linea_verde {
+  width: 1088px;
+  height: 64px;
+  background-color: #09a04f;
+}
+
+/* Segunda línea */
+.segundalinea {
+  justify-content: center;
+  display: flex;
+}
+#rectangulo_gris {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 816px;
+  height: 448px;
+  background-color: #ecebe8;
+}
+#cuadrado_verde {
+  width: 192px;
+  height: 192px;
+  background-color: #09a04f;
+}
+
+/* Tercera Línea */
+.terceralinea {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+#cuadrado_azul {
+  width: 192px;
+  height: 192px;
+  background-color: #32a7dd;
+}
+#cuadrado_beige {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 192px;
+  height: 192px;
+  background-color: #eac9ae;
+}
+#circulo_amarillo {
+  border-radius: 50%;
+  width: 139px;
+  height: 139px;
+  background-color: #eddf58;
+}
